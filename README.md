@@ -1,4 +1,4 @@
-# Master Thesis — Weakly-Supervised Human Activity Recognition from Egocentric Video
+# Master Thesis — WWeak Annotation of Human Activity Datasets Using Vision Language Models
 
 > **Author:** Somesh Salunkhe  
 > **Institution:** University of Siegen  

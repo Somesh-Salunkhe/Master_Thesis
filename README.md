@@ -1,4 +1,4 @@
-# Master Thesis — WWeak Annotation of Human Activity Datasets Using Vision Language Models
+# Master Thesis — Weak Annotation of Human Activity Datasets Using Vision Language Models
 
 > **Author:** Somesh Salunkhe  
 > **Institution:** University of Siegen  

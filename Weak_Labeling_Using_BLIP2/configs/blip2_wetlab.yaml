@@ -1,0 +1,43 @@
+# BLIP-2 HAR Configuration for Wetlab Dataset
+# ============================================
+
+# Model Configuration
+model:
+  name: "Salesforce/blip2-opt-2.7b"
+  device: "cuda:0"
+  feature_type: "qformer"  # qformer (768-dim) or vision (1408-dim)
+  dtype: "float16"
+
+# Dataset Configuration
+dataset:
+  name: "wetlab"
+  num_subjects: 103 # Max subject ID in our case
+  fps: 12
+  
+  # Paths (relative to BLIP2_HAR directory)
+  video_dir: "data/wetlab/raw"
+  features_framewise_dir: "data/wetlab/processed/blip2_features/12fps_framewise"
+  features_pooled_dir: "data/wetlab/processed/blip2_features/48_frames_12_stride_avg_pool"
+
+# Feature Extraction
+feature_extraction:
+  overwrite: false
+  
+# Average Pooling
+pooling:
+  window_size_s: 4      # Window size in seconds
+  overlap_s: 3          # 3s overlap = 1s stride
+  window_size_frames: 48  # 4s * 12fps
+  stride_frames: 12       # 1s * 12fps
+
+# Clustering
+clustering:
+  method: "gmm"
+  n_clusters: 36
+  seed: 1
+  covariance_type: "full"
+
+# Output Directories
+outputs:
+  clustering_dir: "outputs/clustering/wetlab"
+  visualizations_dir: "outputs/visualizations/wetlab"

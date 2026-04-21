@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blip2-har-pipeline"
+version = "0.1.0"
+description = "A pipeline for human activity recognition weak labeling using BLIP-2 Vision Language Models."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "torch",
+    "transformers",
+    "plotly",
+    "pyyaml",
+    "tqdm",
+    "moviepy",
+    "pillow",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+blip2-extract = "run_extraction:main"
+blip2-pool = "run_pooling:main"
+blip2-cluster = "run_clustering:main"
+blip2-classify = "run_classification:main"
+blip2-caption = "run_captions.py:main"
+blip2-visualize = "run_visualization:main"

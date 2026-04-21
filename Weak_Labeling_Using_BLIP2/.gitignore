@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Data & Large Files (GitHub exclusion)
+data/
+outputs/
+output/
+*.mp4
+*.npy
+*.pth
+*.bin
+
+# Project specific
+!configs/**/*.yaml
+!configs/**/*.json
+!src/blip2_har/classification/*.json
+!README.md

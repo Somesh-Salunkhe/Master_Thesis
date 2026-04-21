@@ -1,0 +1,54 @@
+# BLIP-2 HAR Configuration for WEAR Dataset
+# ============================================
+
+# Model Configuration
+model:
+  name: "Salesforce/blip2-opt-2.7b"
+  device: "cuda:0"
+  feature_type: "qformer"  # qformer (768-dim) or vision (1408-dim)
+  dtype: "float16"
+
+# Dataset Configuration
+dataset:
+  name: "wear"
+  num_subjects: 18
+  fps: 12
+  
+  # Paths (relative to BLIP2_HAR directory)
+  video_dir: "data/wear/raw/videos"
+  features_framewise_dir: "data/wear/processed/blip2_features/12fps_framewise"
+  features_pooled_dir: "data/wear/processed/blip2_features/48_frames_12_stride_avg_pool"
+
+# Feature Extraction
+feature_extraction:
+  overwrite: false
+  
+# Average Pooling
+pooling:
+  window_size_s: 4      # Window size in seconds
+  overlap_s: 1          # Overlap in seconds
+  window_size_frames: 48  # 4s * 12fps
+  stride_frames: 12       # (4-1)s * 12fps
+
+# Clustering
+clustering:
+  method: "gmm"
+  n_clusters: 100
+  seed: 1
+  covariance_type: "full"
+
+# Staged Caption Generation
+caption_generation:
+  stages:
+    stage_A: 1      # Centroid only
+    stage_B: 11     # Centroid + 10 nearest
+    stage_C: 51     # Centroid + 50 nearest  
+    stage_D: 101    # Centroid + 100 nearest
+  frames_per_window: 5
+  prompt: null  # Optional: "The person is" for conditional generation
+
+# Output Directories
+outputs:
+  clustering_dir: "outputs/clustering/wear"
+  captions_dir: "outputs/captions/wear"
+  visualizations_dir: "outputs/visualizations/wear"

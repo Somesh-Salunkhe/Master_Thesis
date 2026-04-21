@@ -1,0 +1,10 @@
+# configs/annotation_pipeline_4sec_xclip.yaml
+base_config: "configs/annotation_pipeline_4sec.yaml"
+
+xclip:
+  model_name: "microsoft/xclip-base-patch32"
+  num_frames: 8          # match model default safely
+  batch_size: 8          # adjust for 10GB VRAM (start small)
+  device: "cuda"
+  out_folder: ".data/my_processed_xclip_features_4sec_stride1sec"
+  resize_shorter_side: 224

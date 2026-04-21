@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xclip-har-pipeline"
+version = "0.1.0"
+description = "A pipeline for human activity recognition weak labeling using X-CLIP Video-Text models."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "torch",
+    "transformers",
+    "plotly",
+    "pyyaml",
+    "tqdm",
+    "moviepy",
+    "pillow",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+xclip-preprocess = "run_preprocessing:main"
+xclip-extract = "run_extraction:main"
+xclip-cluster = "run_clustering:main"
+xclip-classify = "run_classification:main"
+xclip-visualize = "run_visualization:main"

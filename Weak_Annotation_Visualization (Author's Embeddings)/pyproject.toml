@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weak-annotation-pipeline"
+version = "0.1.0"
+description = "A pipeline for generating and visualizing weak annotations via clustering and text classification."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "torch",
+    "transformers",
+    "plotly",
+    "pyyaml",
+    "tqdm",
+    "joblib",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/weak-annotation-pipeline"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+weak-cluster = "run_clustering:main"
+weak-classify = "run_classification:main"
+weak-visualize = "run_visualization:main"

@@ -1,0 +1,128 @@
+{
+	"Jogging": [
+		"A running cardio exercise, first-person view of jogging on a path with the camera bouncing up and down rhythmically",
+		"A running warm-up exercise, egocentric view looking straight ahead while running at an easy pace along a trail",
+		"A running cardio exercise, first-person view of the ground and horizon moving smoothly forward while jogging",
+		"A running warm-up drill, camera shaking gently as the person jogs outdoors on a grass field or track",
+		"A running cardio exercise, first-person view where arms swing lightly at the edges of the frame while moving at a steady jogging pace"
+	],
+	"Jogging with rotating arms": [
+		"A running cardio warm-up exercise, jogging at an easy pace while one arm rotates backwards in large circles in first-person view",
+		"A running coordination drill, egocentric view of jogging forward while the left arm makes exaggerated backward circles beside the camera",
+		"A running cardio warm-up exercise, first-person view of jogging while the right arm swings in big backward rotations near the edge of the frame",
+		"A running coordination exercise, camera bouncing forward as both arms rotate backwards simultaneously while jogging",
+		"A running cardio drill, first-person view of an outdoor path while exaggerated arm rotations are visible near the bottom of the image"
+	],
+	"Skipping": [
+		"A running warm-up exercise, first-person view of skipping forward with one knee lifting high on each step",
+		"A running coordination drill, egocentric view where the camera bounces sharply as the legs alternate in high skipping jumps",
+		"A running warm-up exercise, looking ahead on a path while jumping from one leg and lifting the opposite knee towards the chest",
+		"A running cardio drill, first-person view of playful high-knee skipping steps that move the body forward",
+		"A running coordination exercise, seeing one leg push off the ground while the other knee rises high in front with each skip"
+	],
+	"Sidesteps": [
+		"A running agility exercise, first-person view of jumping side to side with both feet leaving the ground together",
+		"A running coordination drill, egocentric view where the camera moves quickly left and right while the person hops sideways",
+		"A running warm-up exercise, looking at the ground while performing small sideways jumps with feet starting together",
+		"A running agility drill, first-person view where the path appears to slide left and right in the field of view as the person sidesteps",
+		"A running coordination exercise, repeated lateral hops where the camera bounces sideways instead of moving straight forward"
+	],
+	"Butt kicks": [
+		"A running warm-up exercise, first-person view of jogging forward while each heel kicks up towards the butt",
+		"A running cardio drill, camera bouncing as the person runs while trying to touch the butt with the heels on every step",
+		"A running warm-up exercise, looking straight ahead on a path while the lower legs flick up high behind the body",
+		"A running cardio exercise, egocentric view of fast running with exaggerated heel lifts towards the back instead of lifting the knees in front",
+		"A running warm-up drill, first-person view of jogging where the feet rise sharply behind the body for butt kicks"
+	],
+	"Shoulder stretch": [
+		"A stretching exercise for the shoulders, first-person view of standing still with one arm stretched straight across the chest at shoulder height",
+		"A stretching exercise for the shoulders, egocentric view looking past an outstretched arm held horizontally while the other hand pulls it closer to the body",
+		"A stretching exercise for the shoulders, first-person view of pressing one upper arm across the front of the torso near the elbow",
+		"A shoulder stretching exercise, seeing the left arm extended to the right while the right forearm pushes against it close to the elbow",
+		"A shoulder stretching exercise, alternating right and left shoulder stretches with one arm straight across the chest and the other hand pulling it inward"
+	],
+	"Hamstring stretch": [
+		"A stretching exercise for the hamstrings, first-person view of sitting on the ground with one leg stretched out diagonally and reaching both hands towards the foot",
+		"A hamstring stretching exercise, egocentric view looking down at a straight leg angled out to the side while the other leg is bent and the torso leans forward",
+		"A stretching exercise for the hamstrings, first-person view of sitting in a V position and bending over the extended leg to stretch the back of the thigh",
+		"A hamstring stretching exercise, seeing one foot far in front while the upper body folds forward trying to grab the toes",
+		"A stretching exercise for the hamstrings, alternating sides while seated by straightening one leg and leaning the torso toward that foot"
+	],
+	"Lumbar rotation": [
+		"A stretching exercise for the lower back, first-person view of lying on the back with both arms stretched out to the sides and legs lifted together",
+		"A lumbar rotation stretching exercise, egocentric view looking up while raised straight legs slowly lower to one side towards the ground",
+		"A stretching exercise for the lower back, first-person view of straight legs tipping as a unit to the left and right while the upper body stays flat",
+		"A lumbar rotation stretching exercise, seeing both feet together in the air and then moving in an arc toward one side of the body",
+		"A stretching exercise for the lumbar spine, lying on the back in a T position with arms out and rotating both legs side to side"
+	],
+	"Triceps stretch": [
+		"A stretching exercise for the triceps, first-person view of standing still with one arm bent behind the head and the other hand pulling on the elbow",
+		"A triceps stretching exercise, egocentric view looking slightly upward while the left arm is raised overhead and the right hand holds the left elbow",
+		"A stretching exercise for the triceps, first-person view of an arm reaching down the back from above the head while the opposite hand pushes the elbow inward",
+		"A triceps stretching exercise, seeing part of the upper arm and forearm above the head while stretching in a standing position",
+		"A stretching exercise for the triceps, alternating right and left overhead stretches with one hand grabbing the other arm's elbow behind the head"
+	],
+	"Lunging stretch": [
+		"A stretching exercise for the hip flexors, first-person view of a deep lunge stretch looking down at the bent front knee with hands resting on the thigh",
+		"A stretching exercise for the hips, egocentric view of standing in a split stance with one foot forward and the back leg straight while the body leans into the stretch",
+		"A hip flexor stretching exercise, first-person view of the forward bent knee with both hands pressing on it",
+		"A stretching lunge exercise, seeing the front foot and knee in a lunge position while the torso remains upright and still",
+		"A stretching exercise for the hips and thighs, alternating leg lunges where the view focuses on the bent front knee and the hands holding the position"
+	],
+	"Burpees ": [
+		"A bodyweight strength training exercise for the whole body, first-person view of dropping into a push-up position and then jumping into the air",
+		"A strength training conditioning exercise, egocentric view of planting hands on the ground, kicking the feet back, doing a push-up, and leaping upward",
+		"A strength training burpee exercise, camera moving rapidly from ground level during a push-up to high in the air during the jump",
+		"A bodyweight strength training exercise, first-person view of hands on the grass, chest near the ground, then an explosive vertical jump",
+		"A strength training exercise for conditioning, egocentric view of repeatedly moving from a plank on the ground to a standing or jumping position"
+	],
+	"Walking lunges normal": [
+		"A lower-body strength training exercise, first-person view of stepping forward into a deep lunge with the front knee bent at ninety degrees",
+		"A leg strength exercise, egocentric view of walking forward while dropping the body into a lunge on each step",
+		"A strength training lunge exercise, camera moving up and down as each step becomes a forward lunge",
+		"A leg strength training exercise, seeing the front leg and knee close up while the back knee drops toward the ground in a walking motion",
+		"A lower-body strength exercise, first-person view of alternating right and left legs stepping forward into lunges along a field"
+	],
+	"Walking lunges complex": [
+		"A lower-body strength training exercise, first-person view of stepping into a deep lunge and twisting the torso towards the front leg with arms extended forward",
+		"A leg and core strength exercise, egocentric view of walking forward into a lunge while the camera rotates slightly to the side of the leading foot",
+		"A complex strength training lunge exercise, arms held straight out in front while dropping into a lunge and turning the upper body towards the front knee",
+		"A strength training exercise for legs and core, first-person view looking over outstretched hands while performing rotating walking lunges",
+		"A lower-body strength exercise, egocentric view of alternating walking lunges with a twist at the bottom of each step"
+	],
+	"Bench Dips": [
+		"An upper-body strength training exercise for the triceps, first-person view looking down at legs extended straight forward while the body dips up and down in front of a bench",
+		"A triceps strength training exercise, egocentric view of camera moving vertically while straight legs rest on the ground during bench dips",
+		"A bodyweight strength exercise, first-person view of sitting in front of a bench with legs stretched out and the torso moving up and down",
+		"An upper-body strength training exercise, seeing shoes and legs in front while the camera rises and falls as the arms push on the bench behind",
+		"A triceps strength exercise, egocentric view of bench dips performed with straight legs on the ground"
+	],
+	"Push up normal": [
+		"An upper-body strength training exercise for the chest and arms, first-person view facing the ground moving closer and further away rhythmically during push-ups",
+		"A bodyweight strength exercise, egocentric view looking down at the grass while pushing the body up and down in a plank position",
+		"A chest and arm strength training exercise, hands planted on the ground pushing the upper body upwards while the camera stays facing the floor",
+		"A strength training push-up exercise, first-person view of arms bending and straightening while the ground approaches and recedes",
+		"An upper-body strength exercise, egocentric view of doing repeated push-ups on the grass from a straight plank position"
+	],
+	"Push up complex": [
+		"An upper-body strength training exercise for chest and core, first-person view of doing a push-up and then rotating the torso to reach one arm up towards the sky",
+		"A complex strength training push-up exercise, egocentric view looking down at the ground during a push-up then turning sideways while one hand points upward",
+		"A chest and core strength exercise, first-person view alternating right and left arm reaches to the sky between push-ups",
+		"A strength training exercise, camera facing the grass while lowering into a push-up and then rolling slightly into a side plank with one arm raised",
+		"An upper-body strength training exercise, egocentric view of push-ups combined with side plank rotations raising one arm straight up"
+	],
+	"Sit up normal": [
+		"A core strength training exercise, first-person view of lying on the back and sitting up towards the knees",
+		"A core strength exercise, egocentric view looking at feet on the ground while the upper body lifts up and down in sit-ups",
+		"A strength training exercise for the abdomen, camera moving from facing the sky to facing the knees repeatedly during sit-ups",
+		"A core strength training exercise, first-person view of bent legs with feet on the ground while curling the torso up",
+		"A core strength exercise, egocentric view of straight legs stretched out in front while the upper body rises toward them"
+	],
+	"Sit up complex": [
+		"A core strength training exercise, first-person view of doing a sit-up and then reaching down to touch the right heel and left heel alternately",
+		"A complex core strength exercise, egocentric view looking at bent legs while the upper body curls up and a hand reaches towards the heel",
+		"A core strength training exercise, camera moving from facing the sky to facing the knees, then tilting slightly as each heel is touched",
+		"A complex abdominal strength exercise, first-person view of straightening the legs during a sit-up and reaching a hand towards the heel",
+		"A core strength training exercise, egocentric view seeing both legs in front while the torso lifts and one hand moves down along the side of the leg toward the heel"
+	]
+}

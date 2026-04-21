@@ -42,7 +42,7 @@ Master_Thesis/
 
 ## 🔬 Methodology
 
-The thesis proposes an end-to-end **weakly-supervised annotation framework** that eliminates the need for manual labels in egocentric activity recognition:
+The thesis proposes an end-to-end **weak annotation framework** that eliminates the need for manual labels in egocentric activity recognition:
 
 1. **Feature Extraction** — Extract frame-level or clip-level visual embeddings using BLIP-2 / X-CLIP
 2. **Sliding Window Pooling** — Aggregate temporal frames using configurable window sizes and strides

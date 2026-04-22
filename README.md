@@ -35,7 +35,7 @@ Master_Thesis/
 │   ├── requirements.txt
 │   └── README.md
 ├── Weak_Labeling_Using_XCLIP/                      # X-CLIP based weak annotation pipeline
-└── Weak_Annotation_Visualization (Author's Embeddings)/   # t-SNE/UMAP visualizations
+└── Weak_Annotation_Visualization (Author's Embeddings)/   # CLIP based weak annotation pipeline
 ```
 
 ---
@@ -49,7 +49,7 @@ The thesis proposes an end-to-end **weak annotation framework** that eliminates 
 3. **GMM Clustering** — Group unlabeled window embeddings into semantically coherent clusters
 4. **ITC Classification** — Map clusters to activity labels using prompt-based text-image alignment
 5. **Caption Generation** — Produce descriptive natural language captions for each cluster
-6. **Visualization** — Render SRT subtitle overlays and interactive embedding plots (t-SNE/UMAP)
+6. **Visualization** — Render SRT subtitle overlays and interactive embedding plots (t-SNE)
 
 ---
 
@@ -101,11 +101,6 @@ python scripts/run_captions.py --dataset wear --gpu 0
 python scripts/run_visualization.py --type srt --dataset wear --subject_id sbj_1
 ```
 
----
-
-## 📊 Embedding Visualizations
-
-The `Weak_Annotation_Visualization (Author's Embeddings)/` directory contains pre-computed t-SNE and UMAP plots of visual embeddings, allowing exploration of cluster separability and activity structure in the latent space.
 
 ---
 
@@ -113,8 +108,8 @@ The `Weak_Annotation_Visualization (Author's Embeddings)/` directory contains pr
 
 | Model | Role |
 |-------|------|
-| [BLIP-2](https://huggingface.co/Salesforce/blip2-opt-2.7b) | Feature extraction + ITC classification + captioning |
-| [X-CLIP](https://huggingface.co/microsoft/xclip-base-patch32) | Video-text alignment for activity recognition |
+| [BLIP-2](https://huggingface.co/Salesforce/blip2-opt-2.7b) | Feature extraction + ITC classification + captioning + Video-text alignment for activity recognition |
+| [X-CLIP](https://huggingface.co/microsoft/xclip-base-patch32) | Feature extraction + ITC classification + Video-text alignment for activity recognition |
 | GMM (Gaussian Mixture Model) | Unsupervised temporal clustering |
 
 ---

@@ -1,4 +1,4 @@
-# Master Thesis — Weak Annotation of Human Activity Datasets Using Vision Language Models
+# Master Thesis — Weak Annotation of Human Activity Recognition Datasets Using Vision Language Models
 
 > **Author:** Somesh Salunkhe  
 > **Institution:** University of Siegen  
@@ -8,7 +8,7 @@
 
 ## 📌 Overview
 
-This repository contains the full codebase, visualizations, and thesis report for a Master's thesis on Weak Annotation of Human Activity Datasets Using Vision Language Models. The project explores the use of large Vision-Language Models (VLMs) — specifically **BLIP-2** and **X-CLIP** — to generate weak annotations for activity classification **without requiring manual frame-level labels**.
+This repository contains the full codebase, visualizations, and thesis report for a Master's thesis on Weak Annotation of Human Activity Recognition Datasets Using Vision Language Models. The project explores the use of large Vision-Language Models (VLMs) — specifically **BLIP-2** and **X-CLIP** — to generate weak annotations for activity classification **without requiring manual frame-level labels**.
 
 The pipeline covers:
 - Visual feature extraction from egocentric video using VLMs
